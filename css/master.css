@@ -1,0 +1,51 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body{
+  overflow: hidden;
+}
+
+#drop_zone{
+  height: 100vh;
+  background-color: #3b1261;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10% 0;
+}
+
+a{
+  margin-left: 1em;
+  color:#FFF;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 0.3px solid #FFF;
+}
+
+#green{
+  height: 100vh;
+  background-color: #3b1261;
+}
+
+#buttons{
+  position: absolute;
+  top: 0;
+}
+button{
+  border-width: 0;
+  background-color: rgba(255,255,255,0.5);
+  padding: 0.2em;
+}
+
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+/*font-family: 'Space Mono', monospace;
+font-family: 'Work Sans', sans-serif;*/

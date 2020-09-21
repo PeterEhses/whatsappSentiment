@@ -1,0 +1,24 @@
+{
+  "name": "whatsappsenti",
+  "version": "1.0.0",
+  "main": "java.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify bundle.js -o dist/bundle.js",
+    "start": "npm run build && node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "emoji-regex": "^6.5.1",
+    "lda": "^0.2.0",
+    "ml-sentiment": "^2.0.7",
+    "pdfast": "^0.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
